@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHELIS | Executive Leadership & Professional Masterclasses</title>
+    <meta name="description" content="Empowering forward-thinking professionals and enterprises through immersive coursework, high-impact simulation, and executive seminars led by globally recognized experts.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar" id="announcement-bar">
+        <span>✨ Fall 2026 Cohort Applications Now Open — Executive Seats Limited</span>
+        <a href="#register" class="announcement-link" id="announcement-link">Apply Now &rarr;</a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="main-header">
+        <div class="nav-container">
+            <a href="#" class="brand-logo" id="brand-logo">
+                <span class="logo-mark">Æ</span>
+                <span class="logo-text">AETHELIS</span>
+            </a>
+            <nav class="nav-menu" id="primary-nav">
+                <a href="#about" class="nav-link" id="nav-about">Methodology</a>
+                <a href="#pillars" class="nav-link" id="nav-pillars">Programs</a>
+                <a href="#comparison" class="nav-link" id="nav-comparison">Why Experiential</a>
+                <a href="#faculty" class="nav-link" id="nav-faculty">Faculty</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#register" class="btn btn-outline" id="nav-btn-apply">Cohort Portal</a>
+                <a href="#register" class="btn btn-gold" id="nav-btn-register">Reserve Seat</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="badge-pill" id="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">Academy of Higher Professional Mastery</span>
+                    </div>
+                    <h1 class="hero-title" id="hero-main-title">
+                        Mastery Beyond Theory.<br>
+                        <span class="text-gradient">Leadership Beyond Boundaries.</span>
+                    </h1>
+                    <p class="hero-subtitle" id="hero-subtitle">
+                        Empowering forward-thinking professionals and enterprises through immersive coursework, high-impact simulation, and executive seminars led by globally recognized experts.
+                    </p>
+                    <div class="hero-cta-group">
+                        <button class="btn btn-gold btn-lg btn-glow" id="hero-cta-primary" onclick="openRegisterModal()">
+                            Reserve Your Seat in the Next Cohort
+                        </button>
+                        <a href="#pillars" class="btn btn-secondary btn-lg" id="hero-cta-secondary">
+                            Explore Curriculums
+                        </a>
+                    </div>
+                    <div class="hero-metrics" id="hero-metrics">
+                        <div class="metric-item">
+                            <span class="metric-number" data-target="15000">15,000+</span>
+                            <span class="metric-label">Global Alumni</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-number" data-target="98">98.4%</span>
+                            <span class="metric-label">Executive Placement Rate</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-number" data-target="450">450+</span>
+                            <span class="metric-label">Enterprise Partners</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual" id="hero-visual-card">
+                    <div class="glass-card hero-image-wrapper">
+                        <img src="assets/hero.png" alt="AETHELIS Executive Seminar in Session" class="hero-img" id="hero-image">
+                        <div class="glass-tag">
+                            <div class="tag-icon">⚡</div>
+                            <div class="tag-details">
+                                <span class="tag-title">Live Executive Seminar</span>
+                                <span class="tag-subtitle">Quarterly Leadership Forum</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Trust Marquee -->
+        <section class="trust-section" id="trust">
+            <p class="trust-title">TRUSTED BY EXECUTIVES & RESEARCHERS FROM WORLD-LEADING ORGANIZATIONS</p>
+            <div class="trust-logos">
+                <span class="trust-logo">STANFORD RESEARCH</span>
+                <span class="trust-logo">MCKINSEY & CO</span>
+                <span class="trust-logo">GOLDMAN SACHS</span>
+                <span class="trust-logo">MIT MEDIA LAB</span>
+                <span class="trust-logo">ACCENTURE LEADERSHIP</span>
+            </div>
+        </section>
+
+        <!-- Value Proposition / Why Experiential Learning Section -->
+        <section class="value-section" id="comparison">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-eyebrow">PRACTICAL ACCELERATION</span>
+                    <h2 class="section-title">Why Hands-On Engagement Accelerates Mastery</h2>
+                    <p class="section-description">
+                        Passive reading builds familiarity, but active engagement builds capability. True expertise is forged at the intersection of rigorous theory and real-time execution.
+                    </p>
+                </div>
+
+                <div class="comparison-grid">
+                    <div class="comparison-card card-passive" id="card-passive-learning">
+                        <div class="card-badge">Traditional Education</div>
+                        <h3 class="card-heading">Passive Textual Reading</h3>
+                        <ul class="comparison-list">
+                            <li><span class="icon-cross">✕</span> Abstract theoretical memorization without context</li>
+                            <li><span class="icon-cross">✕</span> Low retention rate averaging under 20% after 30 days</li>
+                            <li><span class="icon-cross">✕</span> Zero immediate feedback or peer challenge</li>
+                            <li><span class="icon-cross">✕</span> Theoretical knowledge isolated from industry reality</li>
+                        </ul>
+                    </div>
+                    <div class="comparison-card card-active featured-card" id="card-active-learning">
+                        <div class="featured-ribbon">AETHELIS Standard</div>
+                        <div class="card-badge gold-badge">Experiential Mastery</div>
+                        <h3 class="card-heading">Live Seminars & Interactive Practice</h3>
+                        <ul class="comparison-list">
+                            <li><span class="icon-check">✓</span> High-stakes simulations mirroring actual enterprise crises</li>
+                            <li><span class="icon-check">✓</span> 85%+ retention through active execution and dialogue</li>
+                            <li><span class="icon-check">✓</span> Instant critique from world-class industry directors</li>
+                            <li><span class="icon-check">✓</span> Strategic instinct built to lead in rapidly evolving markets</li>
+                        </ul>
+                        <button class="btn btn-gold btn-block margin-top-md" onclick="openRegisterModal()">Confront Real Scenarios &rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Three Educational Pillars -->
+        <section class="pillars-section" id="pillars">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">CORE CURRICULUM</span>
+                    <h2 class="section-title">Architected for Uncompromising Growth</h2>
+                    <p class="section-description">Explore our three targeted learning models designed to take professionals from foundational understanding to executive authority.</p>
+                </div>
+
+                <div class="pillars-grid">
+                    <!-- Pillar 1: Courses -->
+                    <article class="pillar-card" id="pillar-courses">
+                        <div class="pillar-image-container">
+                            <img src="assets/courses.png" alt="Our Professional Courses" class="pillar-img">
+                            <span class="pillar-tag">Pillar 01</span>
+                        </div>
+                        <div class="pillar-body">
+                            <span class="pillar-slogan">Our Courses</span>
+                            <h3 class="pillar-title">Structured Rigor. Industry-Aligned Excellence.</h3>
+                            <p class="pillar-desc">Comprehensive multi-week masterclasses designed by senior academic scholars and senior partners to build deep functional expertise.</p>
+                            <div class="pillar-footer">
+                                <span class="pillar-detail">Duration: 6 - 12 Weeks</span>
+                                <button class="btn-text" onclick="showPillarDetails('courses')">View Curriculum &rarr;</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Pillar 2: Interactive Activities -->
+                    <article class="pillar-card" id="pillar-interactive">
+                        <div class="pillar-image-container">
+                            <img src="assets/workshop.png" alt="Our Interactive Activities" class="pillar-img">
+                            <span class="pillar-tag">Pillar 02</span>
+                        </div>
+                        <div class="pillar-body">
+                            <span class="pillar-slogan">Our Interactive Activities</span>
+                            <h3 class="pillar-title">Immersive Practice. Unshakable Mastery.</h3>
+                            <p class="pillar-desc">Real-time enterprise simulations, strategic war-room exercises, and technical lab environments where decisions carry measurable consequences.</p>
+                            <div class="pillar-footer">
+                                <span class="pillar-detail">Format: Collaborative Labs</span>
+                                <button class="btn-text" onclick="showPillarDetails('interactive')">Explore Workshops &rarr;</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Pillar 3: Executive Seminars -->
+                    <article class="pillar-card" id="pillar-seminars">
+                        <div class="pillar-image-container">
+                            <img src="assets/hero.png" alt="Our Executive Seminars" class="pillar-img">
+                            <span class="pillar-tag">Pillar 03</span>
+                        </div>
+                        <div class="pillar-body">
+                            <span class="pillar-slogan">Our Executive Seminars</span>
+                            <h3 class="pillar-title">Direct Access to Visionary Industry Leadership.</h3>
+                            <p class="pillar-desc">Closed-door symposiums and live roundtables with C-suite executives, market disruptors, and distinguished academic chairs.</p>
+                            <div class="pillar-footer">
+                                <span class="pillar-detail">Access: Exclusive Cohorts</span>
+                                <button class="btn-text" onclick="showPillarDetails('seminars')">View Seminars &rarr;</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration CTA Section -->
+        <section class="cta-section" id="register">
+            <div class="cta-bg-glow"></div>
+            <div class="container">
+                <div class="cta-card glass-card">
+                    <span class="badge-pill gold-pill">COHORT SELECTION & ADMISSION</span>
+                    <h2 class="cta-title">Elevate Your Executive Potential</h2>
+                    <p class="cta-subtitle">
+                        Join an elite network of scholars, executives, and industry innovators. Cohort sizes are strictly limited to ensure high-engagement mentorship and collaborative depth.
+                    </p>
+
+                    <div class="cta-actions">
+                        <button class="btn btn-gold btn-xl btn-glow" id="cta-main-register-btn" onclick="openRegisterModal()">
+                            Reserve Your Seat in the Next Cohort
+                        </button>
+                        <button class="btn btn-outline btn-xl" onclick="alert('Program prospectus request has been initiated. Download will start shortly.')">
+                            Download Enterprise Prospectus (PDF)
+                        </button>
+                    </div>
+
+                    <div class="cta-reassurance">
+                        <span>🔒 Admissions strictly vetted</span>
+                        <span>⚡ Application response within 48 hours</span>
+                        <span>🏛️ Enterprise accreditation available</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="brand-logo">
+                    <span class="logo-mark">Æ</span>
+                    <span class="logo-text">AETHELIS</span>
+                </a>
+                <p class="footer-desc">The premier global institute for high-impact professional education, interactive simulations, and executive leadership seminars.</p>
+            </div>
+            <div class="footer-links-group">
+                <div class="footer-col">
+                    <span class="footer-heading">Programs</span>
+                    <a href="#pillars">Professional Courses</a>
+                    <a href="#pillars">Interactive Workshops</a>
+                    <a href="#pillars">Executive Seminars</a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-heading">Institution</span>
+                    <a href="#about">Academic Board</a>
+                    <a href="#comparison">Methodology</a>
+                    <a href="#trust">Enterprise Partners</a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-heading">Admissions</span>
+                    <a href="#register">Cohort Calendar</a>
+                    <a href="#register">Tuition & Grants</a>
+                    <a href="#register">Executive Application</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 AETHELIS Institute of Professional Mastery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Enrollment Modal -->
+    <div class="modal-overlay" id="register-modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" onclick="closeRegisterModal()">&times;</button>
+            <div class="modal-header text-center">
+                <span class="badge-pill gold-pill">COHORT ENROLLMENT APPLICATION</span>
+                <h3 class="modal-title">Reserve Your Executive Seat</h3>
+                <p class="modal-subtitle">Complete the brief form below to initiate your admission review.</p>
+            </div>
+            <form id="enrollment-form" onsubmit="handleEnrollment(event)">
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" class="form-input" placeholder="e.g. Dr. Eleanor Vance" required>
+                </div>
+                <div class="form-group">
+                    <label for="work-email">Professional Email</label>
+                    <input type="email" id="work-email" class="form-input" placeholder="e.g. e.vance@enterprise.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="organization">Organization & Current Role</label>
+                    <input type="text" id="organization" class="form-input" placeholder="e.g. VP of Technology, Acme Corp" required>
+                </div>
+                <div class="form-group">
+                    <label for="program-track">Select Preferred Program Track</label>
+                    <select id="program-track" class="form-input" required>
+                        <option value="seminars">Executive Leadership Seminar Series (Fall 2026)</option>
+                        <option value="courses">Advanced Strategic Masterclass (12 Weeks)</option>
+                        <option value="interactive">Interactive Enterprise Simulation Lab</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-gold btn-block btn-lg margin-top-md">Submit Admission Review &rarr;</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
